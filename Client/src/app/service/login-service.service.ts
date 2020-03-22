@@ -20,6 +20,5 @@ export class LoginServiceService {
     else{
       console.log("username wrong");
     }
-    
   }
 }

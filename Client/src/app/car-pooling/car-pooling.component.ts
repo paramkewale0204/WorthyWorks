@@ -15,6 +15,7 @@ export class CarPoolingComponent implements OnInit {
     private carPoolingService: CarPoolingService) { }
 
     carpool : Array<CarPooling> = [];
+    
 
   ngOnInit() {
 
@@ -24,5 +25,14 @@ export class CarPoolingComponent implements OnInit {
     });
 
   }
+
+  addCarPoolDetails(){
+    console.log("add Data");
+  }
+
+  deleteCarPoolDetails(){
+    console.log("delete data");
+  }
+
 
 }
